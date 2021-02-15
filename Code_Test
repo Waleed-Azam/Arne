@@ -7,9 +7,9 @@ float temp = 0.0; // variable to store temperature value
 const char* ssid = "python1";  //No space in ssid name or password. Generate from mobile hot spot and then check if wifi scanner can see hotspot wifi
 const char* password = "12345678";
 
-int on_Time_in_sec = 0;
+int on_Time_in_sec = 0; //Initializing all the variables
 int current_time = 0,difference=5;
-bool light_detected = true;//To on/off webpage
+bool light_detected = true;   //To on/off webpage
 int led_number =1;
 WiFiServer server(80);
 
@@ -26,7 +26,7 @@ const int  POT_pin = A0;//vp=A0,34 on esp32 dev kit
 #define BUTTON_PIN_BITMASK 0x100000000
 
  const int freq = 5000;
- const int ledChannel = 1;
+ const int ledChannel = 1;   
  const int ledChanne2 = 2;
  const int ledChanne3 = 3;
  const int ledChanne4 = 4;
