@@ -1,4 +1,4 @@
-# Arne
+# Aurdino based project
 The project: Set up an ESP32 as local host for a webpage. 
 This webpage display how many seconds the ESP32 has been awake.
 Equip the ESP32 with a sensor that supports the following function: 
